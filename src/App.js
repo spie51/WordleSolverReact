@@ -186,13 +186,14 @@ function Row(props){
   
   if(count + 1 >= idInt){
     return (
-      <div className='Section'>
+      <div>
       <div className='Row'>
         <p>{idInt}</p>
         <Clue word = {props.word}/>
         <Button id = {props.id} click = {props.click}/>
       
       </div>
+      <hr></hr>
       <div className='Row'>
       <Response id = {props.id}/>
       </div>
@@ -282,7 +283,7 @@ function App(){
   }
 
   return (
-    [header, p, row1, row2, row3, row4, row5, finalGuess]
+    [header, p, row1, row2, row3, row4, row5]
   );
 }
 

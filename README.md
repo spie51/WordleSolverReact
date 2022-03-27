@@ -1,5 +1,8 @@
 # Wordle Solver with React
 
+Try it on https://spie51.github.io/WordleSolverReact/
+Works best on desktop browsers, especially Chrome
+
 ### cd {PATH_TO_FOLDER}
 
 In the project directory, you can run:
