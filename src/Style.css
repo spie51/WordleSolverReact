@@ -1,0 +1,61 @@
+.Row {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    vertical-align: bottom;
+}
+.Clue {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    vertical-align: botton;
+    float: left;
+}
+.Button {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    vertical-align: center;
+    float: right;
+    padding: 10px;
+}
+/* .Submit {
+    height: ;
+} */
+.Image {
+    width: 50%;
+    height: auto;
+}
+
+.Response {
+    display: table;
+}
+
+.ResponseButton {
+    width: 15%;
+    height: 0;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-bottom: 15%;
+    overflow: hidden;
+}
+
+.ResponseImage {
+    width: 15%;
+    height: 0;
+    padding-bottom: 15%;
+}
+
+.Section {
+    display: flex;
+    margin: auto;
+    width: 70%;;
+}
+
+.Reload {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
