@@ -1,6 +1,6 @@
 import './Style.css';
 import React, { useState } from 'react';
-import submitButton from "./resources/img/submitButton.png"
+import submitButton from "./resources/img/sb.png"
 import yellowSquare from "./resources/img/yellowSquare.png"
 import greenSquare from "./resources/img/greenSquare.png"
 import greySquare from "./resources/img/greySquare.png"
@@ -116,9 +116,14 @@ function whichColor(num){
 }
 
 function Button(props){
+  // return (
+  //   <div className='Button'>
+  //     <button onClick={props.click}><img src={submitButton} className="Image"></img></button>
+  //   </div>
+  // )
   return (
     <div className='Button'>
-      <button onClick={props.click}><img src={submitButton} className="Image"></img></button>
+      <img src={submitButton} onClick={props.click} className="Image"></img>
     </div>
   )
 }
