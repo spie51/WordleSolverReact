@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/WordleSolverReact/static/css/main.cf7354e6.css",
+    "main.css": "/WordleSolverReact/static/css/main.aed10ab9.css",
     "main.js": "/WordleSolverReact/static/js/main.3b35786f.js",
     "static/media/submitButton.png": "/WordleSolverReact/static/media/submitButton.fb87cb1657f92df872d4.png",
     "index.html": "/WordleSolverReact/index.html",
-    "main.cf7354e6.css.map": "/WordleSolverReact/static/css/main.cf7354e6.css.map",
+    "main.aed10ab9.css.map": "/WordleSolverReact/static/css/main.aed10ab9.css.map",
     "main.3b35786f.js.map": "/WordleSolverReact/static/js/main.3b35786f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf7354e6.css",
+    "static/css/main.aed10ab9.css",
     "static/js/main.3b35786f.js"
   ]
 }
