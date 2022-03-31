@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/WordleSolverReact/static/css/main.69563d32.css",
-    "main.js": "/WordleSolverReact/static/js/main.66214b13.js",
-    "static/js/787.8224b5f2.chunk.js": "/WordleSolverReact/static/js/787.8224b5f2.chunk.js",
+    "main.css": "/WordleSolverReact/static/css/main.cf7354e6.css",
+    "main.js": "/WordleSolverReact/static/js/main.3b35786f.js",
     "static/media/submitButton.png": "/WordleSolverReact/static/media/submitButton.fb87cb1657f92df872d4.png",
     "index.html": "/WordleSolverReact/index.html",
-    "main.69563d32.css.map": "/WordleSolverReact/static/css/main.69563d32.css.map",
-    "main.66214b13.js.map": "/WordleSolverReact/static/js/main.66214b13.js.map",
-    "787.8224b5f2.chunk.js.map": "/WordleSolverReact/static/js/787.8224b5f2.chunk.js.map"
+    "main.cf7354e6.css.map": "/WordleSolverReact/static/css/main.cf7354e6.css.map",
+    "main.3b35786f.js.map": "/WordleSolverReact/static/js/main.3b35786f.js.map"
   },
   "entrypoints": [
-    "static/css/main.69563d32.css",
-    "static/js/main.66214b13.js"
+    "static/css/main.cf7354e6.css",
+    "static/js/main.3b35786f.js"
   ]
 }
