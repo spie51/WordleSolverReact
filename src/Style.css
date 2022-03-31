@@ -27,6 +27,7 @@
 .Image {
     width: 50%;
     height: auto;
+    -webkit-appearance: none
 }
 
 .Response {
@@ -44,6 +45,7 @@
     padding-right: 5%;
     padding-bottom: 14%;
     overflow: hidden;
+    -webkit-appearance: none
 }
 
 /* .ResponseImage {
