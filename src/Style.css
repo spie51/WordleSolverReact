@@ -1,5 +1,10 @@
+.Site {
+    color: white;
+    background-color: black;
+}
 .Row {
     display: flex;
+    justify-content: center;
     margin: auto;
     width: 70%;
     vertical-align: bottom;
@@ -13,40 +18,39 @@
     float: left;
 }
 .Button {
-    display: inline-block;
     width: 20%;
     height: 100%;
     background-color: transparent;
     vertical-align: center;
     float: right;
-    padding: 10px;
 }
-/* .Submit {
-    height: ;
-} */
 .Image {
     width: 50%;
     height: auto;
 }
 
 .Response {
-    display: table;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding-bottom: 5%;
 }
 
 .ResponseButton {
-    width: 15%;
+    width: 14%;
     height: 0;
     padding-left: 0%;
     padding-right: 5%;
-    padding-bottom: 15%;
+    padding-bottom: 14%;
     overflow: hidden;
 }
 
-.ResponseImage {
-    width: 15%;
+/* .ResponseImage {
+    width: 14;
     height: 0;
-    padding-bottom: 15%;
-}
+    padding-bottom: 14%;
+} */
 
 .Section {
     display: flex;

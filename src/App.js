@@ -99,7 +99,7 @@ function Clue(props){
   return (
     <div className='Clue'>
         <p style={{textAlign: "center"}}>
-          Our first guess is {props.word}
+          Our guess is {props.word}
           </p>
     </div>
   )
@@ -193,10 +193,10 @@ function Row(props){
         <Button id = {props.id} click = {props.click}/>
       
       </div>
-      <hr></hr>
-      <div className='Row'>
+      
+    
       <Response id = {props.id}/>
-      </div>
+      
       </div>
     );
   }
@@ -261,14 +261,14 @@ function App(){
   const row4 = <Row id = "4" count= {countString} click = {() => increment(4)} word  = {word4}/>
   const row5 = <Row id = "5" count= {countString} click = {() => increment(5)} word  = {word5}/>
 
-  const finalGuess = <p style={{textAlign : "center"}}>{wordsRemaining} remaining words: {wordListArr.toString()} </p>
+  const finalGuess = <p style={{textAlign : "center"}}>{wordsRemaining} possible words: {wordListArr.toString()} </p>
   const prevGuessesArr = [extWord1, extWord2, extWord3, extWord4, extWord5];
   const prevGuesses = <p  style={{textAlign : "center"}}>Previous Guesses: {prevGuessesArr.toString()}</p>
-  //const reload = <div className='Reload'><button onClick={() => window.location.reload(false)}>Click to Reload</button></div>
   const reload = <div style={{textAlign : "center"}}><button onClick={() => window.location.reload(false)}>Click to Reload</button></div>
   
   const success = <p style={{textAlign : "center"}}>Hooray! We guessed the word {wordListArr[0]} after {count} guess{(count === 1) ? "" : "es"}.</p>
   const failure = <p style={{textAlign : "center"}}>Sorry! The word doesn't appear to be in my word bank. Makes sure all clues were inputted correctly.</p>
+  const motivation = <p style={{textAlign : "center"}}>Sorry! We couldn't figure out the word in 5 guesses. <br></br> Now you try and guess from the words below!</p>
   
   if(wordsRemaining === 1){
     return (
@@ -281,6 +281,13 @@ function App(){
       [header, failure, prevGuesses, reload]
     );
   }
+
+  if(count === 5){
+    return (
+      [header, motivation, finalGuess, reload]
+    )
+  }
+
 
   return (
     [header, p, row1, row2, row3, row4, row5]
